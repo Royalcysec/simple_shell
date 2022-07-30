@@ -7,8 +7,8 @@ int handle_args(int *exe_ret);
 int check_args(char **args);
 
 /**
- * get_args - Gets a command from standard input.
- * @line: A buffer to store the command.
+ * get_args - Gets a command from standard input .
+ * @line: A buffer to store the command .
  * @exe_ret: The return value of the last executed command.
  *
  * Return: If an error occurs - NULL.
@@ -135,7 +135,7 @@ int run_args(char **args, char **front, int *exe_ret)
 }
 
 /**
- * handle_args - Gets, calls, and runs the execution of a command.
+ * handle_args - Gets,calls,and runs the execution of a command.
  * @exe_ret: The return value of the parent process' last executed command.
  *
  * Return: If an end-of-file is read - END_OF_FILE (-2).
