@@ -6,9 +6,9 @@ int proc_file_commands(char *file_path, int *exe_ret);
 /**
  * cant_open - If the file doesn't exist or lacks proper permissions, print
  * a cant open error.
- * @file_path: Path to the supposed file.
+ * @file_path:Path to the supposed file.
  *
- * Return: 127.
+ * Return:127.
  */
 
 int cant_open(char *file_path)
@@ -53,7 +53,7 @@ int cant_open(char *file_path)
  */
 int proc_file_commands(char *file_path, int *exe_ret)
 {
-	ssize_t file, b_read, i;
+	size_t file, b_read, i;
 	unsigned int line_size = 0;
 	unsigned int old_size = 120;
 	char *line, **args, **front;
