@@ -1,5 +1,5 @@
-#ifndef _SHELL_HOLBERTON_
-#define _SHELL_HOLBERTON_
+#ifndef _SHELL_MAIN_
+#define _SHELL_MAIN_
 #define UNUSED(x) (void)(x)
 
 #include <stdio.h>
@@ -159,4 +159,4 @@ void print_message(char *str);
 
 void end_of_file(char *buffer);
 unsigned int sig_flag;
-#endif /* _SHELL_HOLBERTON_ */
+#endif /* _SHELL_MAIN_ */
